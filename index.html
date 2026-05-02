@@ -441,7 +441,7 @@
     color: var(--champagne-dark);
   }
   /* Clickable map card (replaces embedded iframe) */
-  .map-link { display: block; width: 100%; text-decoration: none; color: inherit; }
+  .map-link { display: block; width: 100%; height: 100%; text-decoration: none; color: inherit; }
   .map-card {
     position: relative;
     width: 100%; height: 100%;
@@ -475,7 +475,7 @@
     text-transform: uppercase;
   }
 
-  /* ── GALLERY ── */
+  /* GALLERY */
   #gallery { background: white; }
   .gallery-grid {
     max-width: 1100px; margin: 0 auto;
@@ -586,7 +586,7 @@
   }
   .lightbox-close:hover { color: var(--champagne-dark); }
 
-  /* ── COUNTDOWN ── */
+  /* COUNTDOWN */
   #countdown {
     background: linear-gradient(160deg, #faf7f2 0%, #f5ede3 100%);
     text-align: center;
@@ -631,7 +631,7 @@
 
   /* RSVP section removed */
 
-  /* ── FOOTER ── */
+  /* FOOTER */
   footer {
     background: var(--deep);
     padding: 5rem 2rem;
@@ -688,7 +688,7 @@
     color: rgba(201,169,110,0.3);
   }
 
-  /* ── RESPONSIVE ── */
+  /* RESPONSIVE */
   @media (max-width: 768px) {
     nav { padding: 1.2rem 1.5rem; }
     nav.scrolled { padding: 0.9rem 1.5rem; }
@@ -774,6 +774,48 @@
   </div>
 </section>
 
+<!-- DETAILS -->
+<section id="details">
+  <span class="section-floral left">❁</span>
+  <span class="section-floral right">✾</span>
+  <div class="fade-in">
+    <p class="section-label">Celebration Details</p>
+    <h2 class="section-heading">Reception <em>Venue</em></h2>
+    <p class="section-sub">Join us as we celebrate this beautiful beginning with family, friends, and blessings.</p>
+  </div>
+  <div class="details-grid fade-in">
+    <div class="detail-card">
+      <p class="detail-label">Date</p>
+      <h3 class="detail-main">May 31, 2026</h3>
+      <p class="detail-sub">Sunday</p>
+    </div>
+    <div class="detail-card">
+      <p class="detail-label">Time</p>
+      <h3 class="detail-main">4:00 PM</h3>
+      <p class="detail-sub">Reception Ceremony</p>
+    </div>
+    <div class="detail-card">
+      <p class="detail-label">Venue</p>
+      <h3 class="detail-main">P. Krishnapillai Memorial Auditorium</h3>
+      <p class="detail-sub">Kovoor, Kozhikode</p>
+    </div>
+  </div>
+  <div class="map-wrapper fade-in">
+    <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=P.%20Krishnapillai%20Memorial%20Auditorium%20Kovoor%20Kozhikode" target="_blank" rel="noopener noreferrer" aria-label="Open P. Krishnapillai Memorial Auditorium in Google Maps">
+      <div class="map-card">
+        <span class="map-open-btn">Open in Maps ↗</span>
+        <div class="map-placeholder-content">
+          <span class="map-pin">📍</span>
+          <div class="map-text">
+            <strong>P. Krishnapillai Memorial Auditorium</strong>
+            <div class="map-sub">Kovoor · May 31, 2026 · 4:00 PM</div>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+</section>
+
 <!-- GALLERY -->
 <section id="gallery">
   <span class="section-floral left">❁</span>
@@ -856,7 +898,7 @@
   <div class="footer-icons">
     <a href="#" class="footer-icon" title="Instagram">✦</a>
     <a href="#" class="footer-icon" title="Contact">✉</a>
-    <a href="#" class="footer-icon" title="Location">◈</a>
+    <a href="https://www.google.com/maps/search/?api=1&query=P.%20Krishnapillai%20Memorial%20Auditorium%20Kovoor%20Kozhikode" class="footer-icon" title="Location" target="_blank" rel="noopener noreferrer">◈</a>
   </div>
   <div class="footer-line"></div>
   <div class="footer-credit">Created by <a href="https://zenorix.in" target="_blank" rel="noopener noreferrer">Zenorix</a></div>
